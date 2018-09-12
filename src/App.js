@@ -7,12 +7,7 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        {this.props.location.pathname !== "/" && <Nav />}
-        {routes}
-      </div>
-    );
+    return <div className="App" />;
   }
 }
 
